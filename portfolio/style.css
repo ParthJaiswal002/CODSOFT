@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #1e293b; /* soft dark blue */
+  color: #e2e8f0; /* light text */
+}
+
+header {
+  text-align: center;
+  padding: 30px;
+  background: #334155;
+}
+
+header h1 {
+  color: #22c55e; /* soft green accent */
+}
+
+
+section {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #38bdf8; /* soft blue */
+}
+
+.about img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid #38bdf8;
+}
+
+
+.skills span {
+  display: inline-block;
+  background: #475569;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 20px;
+  color: #e2e8f0;
+}
+
+
+.card {
+  background: #334155;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  background: #22c55e; /* green */
+  color: #0f172a;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #16a34a;
+}
+
+
+.contact p {
+  margin: 10px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #334155;
+  margin-top: 20px;
+}
